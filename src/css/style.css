@@ -1,0 +1,145 @@
+/* import */
+@import url(font.css);
+@import url(global.css);
+
+body {
+  background-color: #eaeded;
+  font-family: "Segoeui";
+}
+
+/* navbar */
+
+.nav-link{
+  color: black;
+  text-transform: uppercase;
+}
+
+.input-group {
+  width: fit-content;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+/* banner */
+
+.banner-logo {
+  width: 300px;
+}
+
+/* carousel */
+.owl-carousel {
+  margin-top: -10px;
+}
+
+.wl {
+  width: 3000px !important;
+}
+
+/* neomorphism */
+.neo {
+  background: white;
+  font-weight: 500 !important;
+  box-shadow:  2px 2px 7px #c9cccc, 
+             -2px -2px 7px #ffffff;
+}
+.neo-sec {
+  border: 1px solid rgb(204, 204, 204);
+  color: gray;
+}
+
+.neo-card {
+  border-radius: 15px;
+  box-shadow:  5px 5px 10px #b8b7b7, 
+             -5px -5px 10px #ffffff;
+}
+
+/* shoppingCard */
+.shopCard__head > div:nth-child(2) >p {
+  line-height: 0.5rem;
+}
+
+.shopCard__head > div:nth-child(2) >p:nth-child(1) {
+  font-size: 1.2rem;
+}
+
+.shopCard__mid > div >p:nth-child(even) {
+  margin-top: 5px;
+  font-size: 0.65rem;
+}
+
+.shopCard__mid > div >p:nth-child(odd) {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.shopCard__mid > div >p {
+  line-height: 0.2rem;
+}
+
+.shopCard__foot {
+  border-radius: inherit;
+}
+
+.shopCard__foot > div:nth-child(1) >p {
+  margin-top: 4px;
+  font-size: 0.9rem;
+}
+
+.shopCard__foot > div:nth-child(2) >p {
+  margin-top: -15px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.shopCard__foot > div:nth-child(2) >p::before {
+  content: url(../image/bullet.png);
+  zoom:12%;
+}
+
+/* product */
+.productCard__mid >div:nth-child(1) {
+  font-size: 1.3rem;
+  position: relative;
+  bottom: 2px; 
+}
+
+.sort {
+  width: 60px;
+  height: 30px;
+}
+
+#up {
+  position: relative;
+  top: 9px;
+}
+
+#down {
+  position: relative;
+  bottom: 7px;
+}
+
+/* signIn form */
+form >.form-group .form-control {
+  background: #eaeded;
+  box-shadow: inset 5px 5px 10px #b8b8b8, 
+              inset -5px -5px 10px #ffffff;
+} 
+
+form h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+}
+
+.signIn__logo {
+  width: 50px;
+  margin: 15px;
+}
+
+@media screen and (max-width: 768px){
+  .gif {
+    margin-top: -400px !important;
+    margin-bottom: -75px !important;
+  }
+}
